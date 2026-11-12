@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>DC_Library_Management</display-name>
+
+  <!--
+    Gemini AI Configuration:
+    Recommended: Set GEMINI_API_KEY as an environment variable (in Windows or Eclipse Run Configuration).
+    Alternatively, replace YOUR_GEMINI_API_KEY_HERE below with your Google AI Studio API key.
+  -->
+  <context-param>
+    <param-name>geminiApiKey</param-name>
+    <param-value>YOUR_GEMINI_API_KEY_HERE</param-value>
+  </context-param>
+  <context-param>
+    <param-name>geminiModel</param-name>
+    <param-value>gemini-3.8-flash</param-value>
+  </context-param>
+
+  <welcome-file-list>
+   
+    <welcome-file>index.jsp</welcome-file>
+    
+  </welcome-file-list>
+</web-app>
